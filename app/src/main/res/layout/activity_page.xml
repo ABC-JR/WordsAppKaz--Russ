@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="375dp"
+        android:layout_height="189dp">
+
+        <ImageButton
+            android:id="@+id/Exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:contentDescription="Exit button"
+
+            android:src="@drawable/r_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.071"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.169"
+            tools:ignore="InvalidId,MissingConstraints" />
+
+        <Button
+            android:id="@+id/addingword"
+            android:layout_width="131dp"
+            android:layout_height="49dp"
+            android:backgroundTint="#B91C34"
+            android:text="+ add word"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+
+            app:layout_constraintHorizontal_bias="0.934"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.114"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@id/TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/nunito"
+        android:gravity="center"
+        android:text="Galaxy"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        tools:ignore="HardcodedText" />
+
+
+    <!-- Option 1 -->
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="33dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/shape_corners"
+        android:layout_marginTop="18dp">
+
+        <LinearLayout
+            android:id = "@+id/option1layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CCCCD0"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <TextView
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:textColor="#888992"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/shape_rounder"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/option1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:textColor="#888992"
+                android:fontFamily="@font/rubik"
+                android:text="Сломать"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Option 2 -->
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="33dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/shape_corners"
+        android:layout_marginTop="18dp">
+
+        <LinearLayout
+            android:id = "@+id/option2layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CCCCD0"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <TextView
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:textColor="#888992"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/shape_rounder"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rubik"
+                android:layout_marginStart="16dp"
+                android:textColor="#888992"
+                android:text="Сон"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Option 3 -->
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="33dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/shape_corners"
+        android:layout_marginTop="18dp">
+
+        <LinearLayout
+            android:id = "@+id/option3layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CCCCD0"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <TextView
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:textColor="#888992"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/shape_rounder"
+                android:text="3" />
+
+            <TextView
+                android:id="@+id/option3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/rubik"
+                android:textColor="#888992"
+                android:text="Галактика"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Option 4 -->
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="33dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/shape_corners"
+        android:layout_marginTop="18dp">
+
+        <LinearLayout
+            android:id = "@+id/option4layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CCCCD0"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <TextView
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:textColor="#888992"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/shape_rounder"
+                android:text="4" />
+
+            <TextView
+                android:id="@+id/option4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/rubik"
+                android:textColor="#888992"
+                android:text="Утюг"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Skip Button -->
+
+    <!-- Bottom section with icon and text -->
+    <Button
+        android:id="@+id/skipbutton"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="18dp"
+        android:backgroundTint="#2574FF"
+        android:text="@string/buttonskip"
+        android:textAllCaps="true"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#0EAD69"
+        android:textAllCaps="true"
+        android:orientation="horizontal"
+        android:id="@+id/Continue"
+        android:visibility="gone"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/group_410"
+            android:layout_marginEnd="12dp"
+            android:contentDescription="Correct image" />
+
+        <Button
+            android:id="@+id/continuebt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/nunito"
+            android:text="@string/buttoncontinue"
+            android:textColor="#0EAD69"
+            android:textAllCaps="true"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#FA4169"
+        android:id="@+id/Wrong"
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wrong"
+            android:contentDescription="Wrong image"
+            android:layout_marginEnd="12dp"
+            android:layout_gravity="center_vertical" />
+
+        <Button
+            android:id="@+id/continuebtwrong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/nunito"
+            android:text="@string/buttoncontinue"
+            android:textColor="#FA4169"
+            android:textAllCaps="true"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_marginEnd="16dp"
+            app:cornerRadius="8dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

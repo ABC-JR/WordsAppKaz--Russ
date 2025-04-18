@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WordsApp</string>
+    <string name="buttonskip">Skip</string>
+    <string name="buttoncontinue">Continue</string>
+</resources>
